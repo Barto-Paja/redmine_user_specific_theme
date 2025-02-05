@@ -6,8 +6,8 @@ module RedmineUserSpecificTheme::Patches
 
     def current_theme
       user_theme = super
-      user_theme = Redmine::Themes.theme(User.current.pref.ui_theme)
-      user_theme || Redmine::Themes.theme(Setting.ui_theme)
+      user_theme = Redmine::Themes.theme(User.current.pref.ui_theme, theme_directory: 'assets/themes')
+      user_theme || Redmine::Themes.theme(Setting.ui_theme, theme_directory: 'assets/themes')
     end
 
     def body_css_classes
