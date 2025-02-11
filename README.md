@@ -1,8 +1,5 @@
 # Redmine User-Specific Theme Plugin
 
-[![Build Status](https://travis-ci.org/Restream/redmine_user_specific_theme.png)](https://travis-ci.org/Restream/redmine_user_specific_theme)
-[![Code Climate](https://codeclimate.com/github/Restream/redmine_user_specific_theme.png)](https://codeclimate.com/github/Restream/redmine_user_specific_theme)
-
 This plugin allows Redmine users to select themes in their account settings. The selected theme will be displayed for the user regardless of the system-wide theme settings.
 
 ## Compatibility
@@ -22,7 +19,7 @@ This plugin version is compatible only with Redmine 2.1.x and later.
  
       Copy the plugin from GitHub using the following command:
 
-            git clone https://github.com/Restream/redmine_user_specific_theme.git plugins/redmine_user_specific_theme
+            git clone https://github.com/Barto-Paja/redmine_user_specific_theme plugins/redmine_user_specific_theme
 
 2. Install the required gems using the command:  
 
